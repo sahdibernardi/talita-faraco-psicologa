@@ -1,9 +1,37 @@
+'use client'
 import Image from "next/image"
 import Link from "next/link"
+import { useState, useEffect } from "react"
 
 export default function Menu() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const screenHeight = window.innerHeight
+      if (window.scrollY > screenHeight) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="flex w-full items-center bg-gradient-to-b from-[#292823] via-[#292823]/90 to-transparent via-[80%] justify-between fixed z-50 md:p-6">
+    <nav className={`
+      flex w-full items-center justify-between fixed z-50 md:p-6
+      transition-colors duration-300 ease-in-out
+      ${scrolled 
+        ? 'bg-gradient-to-b from-[#0f100d] via-[#292823]/90 to-transparent via-[80%]' 
+        : 'bg-transparent'
+      }
+    `}>
         <Link href="/" className="text-2xl font-light">
           <Image
             src="/images/logo.png"
