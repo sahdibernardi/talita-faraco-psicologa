@@ -1,5 +1,5 @@
-import { ChevronDown } from "lucide-react";
 import Image from "next/image";
+import ContactButton from "./contactButton";
 
 export default function Cover() {
   return (
@@ -7,7 +7,7 @@ export default function Cover() {
     <div className="container mx-auto px-4 pt-[calc(100vw-30%)] md:py-24 md:px-6 lg:px-8">
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div className="order-2 md:order-1">
-          <h1 className="text-lg uppercase md:text-4xl lg:text-7xl font-light leading-tight mb-6">
+          <h1 className="text-4xl uppercase md:text-4xl lg:text-7xl font-light leading-tight mb-6">
             Expandindo as
             <br />
             possibilidades
@@ -15,12 +15,10 @@ export default function Cover() {
             do cuidado
           </h1>
           <h4 className="text-3xl">
-            <span>Atendimento psicológico humanizado</span>, respeitando a singularidade de cada pessoa em sua jornada.
+            Atendimento psicológico humanizado, respeitando a singularidade de cada pessoa em sua jornada.
           </h4>
           <div className="mt-8 flex items-center">
-            <button className="bg-white rounded-full w-8 h-8 flex items-center justify-center mr-2">
-              <ChevronDown className="h-4 w-4 text-[#1a1a18]" />
-            </button>
+            <ContactButton backgroundColor="bg-[#E9E8E5]" textColor="text-black" iconColor="regular" />
           </div>
         </div>
         <div className="order-1 md:order-2 relative w-full h-full ">
