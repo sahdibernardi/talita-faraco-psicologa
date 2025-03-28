@@ -1,5 +1,6 @@
 import EducationCards from "./educationCards";
 import Testimonial from "./testimonial";
+import Timeline from "./timeline";
 
 export default function Experiences() {
   return(
@@ -26,6 +27,7 @@ export default function Experiences() {
           </div>
         </div>
         <EducationCards />
+        <Timeline />
         <Testimonial />
       </div>
       {/* Smooth gradient transition to next section */}
