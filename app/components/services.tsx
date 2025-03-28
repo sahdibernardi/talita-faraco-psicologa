@@ -6,28 +6,28 @@ const allServices = [
     description: 'O processo psicoterapêutico se dá no encontro periódico da pessoa com seu psicólogo que através de questionamentos, escuta ativa e acolhedora e um bom vínculo terapêutico contribui para a aproximação do sujeito consigo mesmo, encontrando dentro de si respostas e sentidos para suas questões.',
     details: () => null,
   },
-  { imageSrc: '/images/services/psico-online.png',
+  { imageSrc: '/images/services/palestra.jpg',
     title: 'Aulas e Palestras',
     description: 'Serviço voltado para empresas, instituições, organizações, ligas acadêmicas e grupos de estudo que procuram saber mais sobre temáticas relevantes e complexas tais quais:',
     details: () => <ul className="text-md">
               <li>- comunicação de más notícias</li>
               <li>- trabalho multidisciplinar</li>
               <li>- acolhimento para profissionais da saúde e psicologia hospitalar</li>
-              <li>- psico oncologia e luto.</li>
+              <li>- psico-oncologia e luto.</li>
             </ul>,
   }
 ]
 
 export default function Services() {
   return(
-    <section id="servicos" className="relative bg-[#E9E8E5] text-[#1a1a18] py-16 md:py-24">
+    <section id="servicos" className="relative bg-[#E9E8E5] text-[#143C6B] py-16 md:py-24">
     <div className="container mx-auto my-30 px-4 md:px-6 lg:px-8">
       <h2 className="text-2xl md:text-5xl text-center uppercase my-20">Serviços</h2>
       <div className="space-y-8 w-full flex flex-col items-center justify-center">
         { allServices.map((service) => 
           <div key={service.title} className="bg-white rounded-4xl drop-shadow-xl overflow-hidden flex flex-col md:flex-row w-2/3 p-8">
             <div className="relative w-50 h-50">
-              <div className="absolute rounded-4xl inset-0 bg-[#143C6B] mix-blend-multiply opacity-50 z-10"></div>
+              <div className="absolute rounded-4xl inset-0 bg-[#143C6B] mix-blend-multiply opacity-70 z-10"></div>
               <Image
                 src={service.imageSrc}
                 alt={service.title}
@@ -36,7 +36,7 @@ export default function Services() {
               />
             </div>
             <div className="pl-6 md:w-3/4">
-              <p className="font-semibold text-xl mb-2">{service.title}</p>
+              <p className="font-bold text-xl mb-4">{service.title}</p>
               <p className="text-md mb-1">
                 {service.description}
               </p>
