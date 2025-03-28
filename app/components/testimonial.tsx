@@ -9,8 +9,8 @@ export default function Testimonial() {
           <Image
             src="/images/psicologa-clinica.jpg"
             alt="Profissional de saúde"
-            width={400}
-            height={500}
+            width={2025}
+            height={2538}
             className="object-cover rounded-3xl w-full md:w-auto md:max-w-[400px] md:absolute md:right-0 md:mt-50 md:mr-20 "
           />
         </div>

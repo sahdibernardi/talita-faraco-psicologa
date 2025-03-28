@@ -19,7 +19,7 @@ const questions = [
   },
   {
     question: 'Qual o valor dos serviços?',
-    answer: () => <p>Os diferentes serviços, possuem valores específicos. No caso, esses valores são apresentados no contato de WhatsApp ou no email disponível, considerando as normativas da <a href='https://site.cfp.org.br/wp-content/uploads/2024/12/FENAPSI_TABELA_ATUALIZADA_Maio_2024.pdf' target="_blank">Tabela de Referência Nacional de Honorários do Conselho Federal de Psicologia</a>.</p>,
+    answer: () => <p>Os diferentes serviços, possuem valores específicos. No caso, esses valores são apresentados no contato de WhatsApp ou no email disponível, considerando as normativas da <a className="underline" href='https://site.cfp.org.br/wp-content/uploads/2024/12/FENAPSI_TABELA_ATUALIZADA_Maio_2024.pdf' target="_blank">Tabela de Referência Nacional de Honorários do Conselho Federal de Psicologia</a>.</p>,
   },
 ]
 
@@ -95,7 +95,7 @@ export default function FAQ() {
         </div>
       </div>
       {/* Diagonal transition to next section */}
-      <div className="absolute bottom-0 left-0 right-0">
+      <div className="absolute bottom-0 left-0 right-0 z-0">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" className="w-full h-auto">
           <path fill="#f5f5f5" fillOpacity="1" d="M0,32L1440,96L1440,120L0,120Z"></path>
         </svg>
