@@ -44,54 +44,6 @@ export default function FAQ() {
               </div>
             </details>
           </div>)}
-          
-          {/* <div className="border-b border-gray-700 py-4">
-            <details className="group">
-              <summary className="flex justify-between items-center w-full text-left cursor-pointer">
-                <span className="font-medium">Como me preparar para o atendimento online?</span>
-                <ChevronDown className="h-5 w-5 group-open:rotate-180 transition-transform" />
-              </summary>
-              <div className="mt-2 text-sm text-gray-300">
-                <p>
-                  Para o atendimento online, recomendo que você esteja em um local tranquilo e privado, onde não haja
-                  interrupções. Verifique sua conexão com a internet antes da sessão e tenha fones de ouvido
-                  disponíveis para melhor qualidade de áudio. É importante também que você esteja em um ambiente
-                  confortável, onde se sinta à vontade para falar sobre suas questões.
-                </p>
-              </div>
-            </details>
-          </div>
-          <div className="border-b border-gray-700 py-4">
-            <details className="group">
-              <summary className="flex justify-between items-center w-full text-left cursor-pointer">
-                <span className="font-medium">Aceita por plano de saúde ou convênio?</span>
-                <ChevronDown className="h-5 w-5 group-open:rotate-180 transition-transform" />
-              </summary>
-              <div className="mt-2 text-sm text-gray-300">
-                <p>
-                  Sim, trabalho com diversos planos de saúde e convênios. Entre eles estão Unimed, Bradesco Saúde,
-                  SulAmérica, Amil e outros. Para verificar se seu plano está na lista de convênios aceitos, entre em
-                  contato por telefone ou e-mail informando o nome do seu plano e tipo de contrato.
-                </p>
-              </div>
-            </details>
-          </div>
-          <div className="border-b border-gray-700 py-4">
-            <details className="group">
-              <summary className="flex justify-between items-center w-full text-left cursor-pointer">
-                <span className="font-medium">Qual o valor das consultas?</span>
-                <ChevronDown className="h-5 w-5 group-open:rotate-180 transition-transform" />
-              </summary>
-              <div className="mt-2 text-sm text-gray-300">
-                <p>
-                  O valor das consultas varia de acordo com a modalidade de atendimento (presencial ou online) e
-                  frequência das sessões. Para informações atualizadas sobre valores, por favor entre em contato
-                  diretamente por telefone ou e-mail. Ofereço também opções de pacotes com valores diferenciados para
-                  tratamentos contínuos.
-                </p>
-              </div>
-            </details>
-          </div> */}
         </div>
       </div>
       {/* Diagonal transition to next section */}

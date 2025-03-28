@@ -1,5 +1,3 @@
-import Image from "next/image"
-import { ChevronRight, Instagram, Linkedin, Phone } from "lucide-react"
 import Menu from "./components/menu"
 import Cover from "./components/cover"
 import About from "./components/about"
