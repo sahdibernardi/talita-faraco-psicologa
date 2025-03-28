@@ -15,7 +15,7 @@ export default function Cover() {
             do cuidado
           </h1>
           <h4 className="text-3xl">
-            Atendimento psicológico humanizado, respeitando a singularidade de cada pessoa em sua jornada.
+            <span>Atendimento psicológico humanizado</span>, respeitando a singularidade de cada pessoa em sua jornada.
           </h4>
           <div className="mt-8 flex items-center">
             <button className="bg-white rounded-full w-8 h-8 flex items-center justify-center mr-2">

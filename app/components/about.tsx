@@ -25,7 +25,7 @@ export default function About() {
               <p className="mb-2">
                 Psicóloga Talita F Cantelli
               </p>
-              <p className="mb-6">
+              <p className="mb-20">
                 CRP 06/176527.
               </p>
             </div>

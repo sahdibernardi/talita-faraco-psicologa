@@ -31,7 +31,7 @@ export default function Experiences() {
         <Testimonial />
       </div>
       {/* Smooth gradient transition to next section */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-[#3d5a80] to-[#f5f5f5]"></div>
+      <div className="absolute bottom-0 pb- left-0 right-0 h-50 bg-gradient-to-b from-[#3d5a80] to-[#E9E8E5] z-0"></div>
     </section>
   )
 }

@@ -4,6 +4,7 @@ import Menu from "./components/menu"
 import Cover from "./components/cover"
 import About from "./components/about"
 import Experiences from "./components/experiences"
+import Services from "./components/services"
 
 export default function Home() {
   return (
@@ -12,60 +13,7 @@ export default function Home() {
       <Cover />
       <About />
       <Experiences />
-
-      {/* Services Section */}
-      <section id="servicos" className="relative bg-[#f5f5f5] text-[#1a1a18] py-16 md:py-24">
-        <div className="container mx-auto px-4 md:px-6 lg:px-8">
-          <h2 className="text-2xl md:text-3xl font-light mb-12">Serviços</h2>
-          <div className="space-y-8">
-            <div className="bg-white rounded-lg shadow-sm overflow-hidden flex flex-col md:flex-row">
-              <div className="relative w-full md:w-1/3 h-64 md:h-auto">
-                <div className="absolute inset-0 bg-[#3d5a80] bg-opacity-50 z-10"></div>
-                <Image
-                  src=""
-                  alt="Psicoterapia Online"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6 md:w-2/3">
-                <h3 className="font-semibold text-xl mb-3">Psicoterapia Online</h3>
-                <p className="text-sm mb-4">
-                  Atendimento psicológico virtual, com a mesma qualidade do presencial. Ideal para quem busca
-                  flexibilidade de horários e conforto. Sessões realizadas por videoconferência em ambiente seguro e
-                  confidencial.
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-sm overflow-hidden flex flex-col md:flex-row">
-              <div className="relative w-full md:w-1/3 h-64 md:h-auto">
-                <div className="absolute inset-0 bg-[#3d5a80] bg-opacity-50 z-10"></div>
-                <Image
-                  src=""
-                  alt="Adultos e Pacientes Oncológicos"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6 md:w-2/3">
-                <h3 className="font-semibold text-xl mb-3">Adultos e Pacientes Oncológicos</h3>
-                <p className="text-sm mb-4">
-                  Atendimento especializado para adultos com diversas questões emocionais e psicológicas. Experiência
-                  específica no acompanhamento de pacientes oncológicos e seus familiares, oferecendo suporte durante
-                  todo o processo.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Diagonal transition to next section */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" className="w-full h-auto">
-            <path fill="#1a1a18" fillOpacity="1" d="M0,96L1440,32L1440,120L0,120Z"></path>
-          </svg>
-        </div>
-      </section>
+      <Services />
 
       {/* FAQ Section */}
       <section id="faq" className="relative bg-[#1a1a18] text-white py-16 md:py-24">

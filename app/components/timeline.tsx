@@ -42,12 +42,12 @@ const institutions = [
 export default function Timeline() {
   return (
     <div className="w-full flex justify-center mb-20">
-      <div className="w-9/12 flex">
+      <div className="w-9/12 flex flex-wrap">
         {institutions.map((institution) => <div
           key={institution.name}
           className="
               bg-white
-              w-30 h-30 
+              w-28 h-28 
               rounded-full
               border-2 
               border-gray-200 
@@ -69,8 +69,8 @@ export default function Timeline() {
             height={100}
             className="
                 object-contain
-                w-30 
-                h-30
+                w-28
+                h-28
                 rounded-full
                 duration-1000
               "
