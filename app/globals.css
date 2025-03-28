@@ -1,15 +1,43 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+@font-face {
+  font-family: "Kenao";
+  src: url("/fonts/Kenao.otf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3, h4, h5, h6 {
+  font-family: "Poiret One", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Kenao", sans-serif;
+}
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: 255 255 255;
+  --foreground: 26 26 24;
+
+  --primary: 61 90 128;
+  --primary-foreground: 255 255 255;
+
+  --secondary: 245 245 245;
+  --secondary-foreground: 26 26 24;
+
+  --accent: 61 90 128;
+  --accent-foreground: 255 255 255;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +48,6 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground));
+  background: rgb(var(--background));
 }
