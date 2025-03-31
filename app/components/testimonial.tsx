@@ -16,10 +16,10 @@ export default function Testimonial() {
         </div>
         <div>
           <p className="text-lg italic mt-30 mb-6">
-            Em todos estes contextos pude cuidar de pacientes com os mais diversos tipos de adoecimento e de suas famílias. Mas também profissionais da saúde envolvidos no tratamento dessas pessoas.
+            &rdquo;Em todos estes contextos pude cuidar de pacientes com os mais diversos tipos de adoecimento e de suas famílias. Mas também profissionais da saúde envolvidos no tratamento dessas pessoas.
           </p>
           <p className="text-lg italic mb-20">
-            Atendi nos leitos, nos ambulatórios, nos corredores de todos estes cenários. Aprendi muito com profissionais experientes que me inspiraram a <b>buscar conhecimento para oferecer o melhor suporte emocional àqueles que necessitam</b>.
+            Atendi nos leitos, nos ambulatórios, nos corredores de todos estes cenários. Aprendi muito com profissionais experientes que me inspiraram a <b>buscar conhecimento para oferecer o melhor suporte emocional àqueles que necessitam</b>&rdquo;.
           </p>
           <ContactButton />
         </div>

@@ -8,16 +8,16 @@ export default function About() {
               <p className="mb-2">Olá!</p>
               <p className="font-bold mb-4">Me chamo Talita,</p>
               <p className="mb-6">
-                Nasci em Florianópolis e por lá se fala rápido e muito. Sou extrovertida e falante desde pequenininha, mas sempre tive olhos e ouvidos atentos e curiosos. 
+                Nasci em Florianópolis e por lá se fala rápido e muito. Sou extrovertida e falante desde pequenininha, mas sempre tive olhos e ouvidos atentos e curiosos.
               </p>
               <p className="mb-6">
-                Na mesma proporção que gosto de contar histórias, gosto de ouvi-las. E à medida que fui crescendo, foi na escuta que me realizei. Ouvindo atentamente e cuidando daquilo que é escutado: assim me encontrei como profissional. 
+                Na mesma proporção em que gosto de contar histórias, gosto de ouvi-las. E, à medida que fui crescendo, foi na escuta que me realizei. Ouvindo atentamente e cuidando daquilo que é escutado: assim me encontrei como profissional. 
               </p>
               <p className="mb-6 font-bold">
                 Honrar a confiança daqueles que compartilham suas angústias, pensamentos e sentimentos virou uma missão e um compromisso.
               </p>
               <p className="mb-6">
-                Hoje sou Psicóloga Clínica e Hospitalar, <b>especialista em Oncologia</b>. Possuo experiência em atendimento psicológico clínico, ambulatorial, atividades de ensino e pesquisa, avaliação psicológica e na assistência hospitalar em unidades de internação de todas os níveis de complexidade, cuidando de pacientes, famílias e profissionais da saúde. Me oriento pela Fenomenologia-Existencial e sou uma estudiosa entusiasta dos Cuidados Paliativos e abordagens do Luto.
+                Hoje sou Psicóloga Clínica e Hospitalar, <b>especialista em Oncologia</b>. Possuo experiência em atendimento psicológico clínico, ambulatorial, atividades de ensino e pesquisa, avaliação psicológica e na assistência hospitalar em unidades de internação de todos os níveis de complexidade, cuidando de pacientes, famílias e profissionais da saúde. Me oriento pela Fenomenologia-Existencial e sou uma estudiosa entusiasta dos Cuidados Paliativos e abordagens do Luto.
               </p>
               <p className="mb-6 font-bold">
                 Aqui me apresento, para que você, que busca ajuda especializada, justa e respeitosa, <b>saiba que pode contar comigo</b>.

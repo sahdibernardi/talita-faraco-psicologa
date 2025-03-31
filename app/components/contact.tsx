@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="container w-full flex justify-center items-start mx-auto px-4 md:px-6 lg:px-8">
         <div className="relative grid md:grid-cols-2 items-center w-full max-w-5xl">
           <div className="order-2 md:order-1 z-10">
-            <h2 className="text-[#143C6B] text-2xl md:text-5xl uppercase mb-5">Fale Comigo</h2>
+            <h2 className="text-[#143C6B] text-2xl md:text-5xl uppercase -mt-20 mb-5">Fale Comigo</h2>
             <p className="text-lg mb-8">
               Entre em contato ou clique no botão abaixo para agendar uma consulta ou para mais informações.
             </p>
@@ -26,13 +26,13 @@ export default function Contact() {
             </div>
             <ContactButton backgroundColor="bg-[#143C6B]"/>
           </div>
-          <div className="order-1 md:order-2 flex items-center justify-center md:justify-end z-10">
+          <div className="order-1 md:order-2 flex items-center -mt-30 mb-20 justify-center md:justify-end z-10">
             <Image
               src="/images/psicologa-talita.jpg"
               alt="Profissional de saúde"
-              width={2025}
-              height={2538}
-              className="object-cover rounded-3xl -mt-40 mb-20 left-0 right-0 md:w-auto md:max-w-[400px] shadow-lg"
+              width={400}
+              height={400}
+              className="object-cover  object-top rounded-3xl h-[500px] w-[400px] shadow-lg"
             />
           </div>
         </div>

@@ -3,7 +3,7 @@ import ContactButton from "./contactButton";
 
 export default function Cover() {
   return (
-    <section className="relative border-none h-full bg-gradient-to-br from-[#292823] to-[#0f100d]">
+    <section id="cover" className="relative border-none h-full bg-gradient-to-br from-[#292823] to-[#0f100d]">
     <div className="container mx-auto px-4 pt-[calc(100vw-30%)] md:py-24 md:px-6 lg:px-8">
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div className="order-2 md:order-1">

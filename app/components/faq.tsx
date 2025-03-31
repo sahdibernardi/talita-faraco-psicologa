@@ -34,7 +34,7 @@ export default function FAQ() {
         </h2>
         <div className="max-w-3xl mx-auto mb-30">
           {questions.map((item) => <div key={item.question} className="border-2 border-[#AFB4BD] p-6 rounded-4xl mb-2">
-            <details open className="group">
+            <details className="group">
               <summary className="flex justify-between items-center w-full text-left cursor-pointer">
                 <span className="font-semibold text-xl">{item.question}</span>
                 <ChevronDown className="h-5 w-5 group-open:rotate-180 transition-transform" />

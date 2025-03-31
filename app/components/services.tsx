@@ -15,7 +15,12 @@ const allServices = [
               <li>- acolhimento para profissionais da saúde e psicologia hospitalar</li>
               <li>- psico-oncologia e luto.</li>
             </ul>,
-  }
+  },
+  { imageSrc: '/images/services/psico-online.png',
+    title: 'Consultoria para profissionais da saúde',
+    description: 'Você que é profissional da saúde e cuida de pacientes acometidos por adoecimentos dos mais diversos tipos e possui dúvidas, inseguranças ou dificuldades para manejar e cuidar, conte comigo para trocas e orientações sobre os cuidados psicossociais necessários para uma melhor condução do seu trabalho.',
+    details: () => null,
+  },
 ]
 
 export default function Services() {
