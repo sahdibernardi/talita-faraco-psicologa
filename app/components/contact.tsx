@@ -5,7 +5,7 @@ import ContactButton from "./contactButton";
 export default function Contact() {
   return(
     <section id="contato" className="relative bg-[#f5f5f5] text-[#1E1E1E] pt-16 pb-0 md:pt-0 md:pb-0">
-      <div className="container w-full flex justify-center items-start mx-auto px-8 md:px-6 lg:px-8">
+      <div className="container -mt-1 w-full flex justify-center items-start mx-auto px-8 md:px-6 lg:px-8">
         <div className="relative grid md:grid-cols-2 items-center w-full max-w-5xl">
           <div className="order-2 mb-20 md:order-1 z-10">
             <h2 className="text-[#143C6B] text-2xl md:text-5xl uppercase md:-mt-20 md:mb-5">Fale Comigo</h2>

@@ -25,7 +25,7 @@ const questions = [
 
 export default function FAQ() {
   return(
-    <section id="faq" className="relative bg-[#1a1a18] text-white py-16 md:py-24">
+    <section id="faq" className="relative -mt-1 bg-[#1a1a18] text-white py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <h2 className="text-4xl break-words max-w-full md:text-5xl mb-20 text-center uppercase">
           Dúvidas Frequentes
