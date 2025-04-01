@@ -7,7 +7,7 @@ export default function Cover() {
       <div className="container mx-auto pt-50 px-6 md:py-24 md:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="relative w-full h-full flex flex-col justify-center items-center z-10">
-            <h1 className="text-5xl break-words uppercase md:text-5xl md:break-normal lg:text-7xl font-light leading-tight mb-6 text-center max-w-full">
+            <h1 className="text-4xl break-words uppercase md:text-5xl md:break-normal lg:text-7xl font-light leading-tight mb-6 text-center max-w-full">
               Expandindo as
               <br />
               possibilidades
