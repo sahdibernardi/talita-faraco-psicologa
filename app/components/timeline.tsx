@@ -19,7 +19,7 @@ const institutions = [
   {
     name: 'Hospital das Clínicas',
     logo: '/images/institutions/hospital-clinicas.png',
-    position: 'especialista',
+    position: 'especializanda',
   },
   {
     name: 'Hospital Sírio-Libanês',
@@ -89,7 +89,8 @@ export default function Timeline() {
                 "
               />
             </div>
-            <div className="text-sm mb-5 italic capitalize opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
+            {/* Visível por padrão no celular, mas só aparece no hover em telas maiores */}
+            <div className="text-sm mb-5 italic capitalize opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
               {institution.position}
             </div>
           </div>
@@ -98,3 +99,4 @@ export default function Timeline() {
     </div>
   );
 }
+
