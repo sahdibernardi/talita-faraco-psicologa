@@ -17,18 +17,18 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Psicóloga Talita Faraco Cantelli | Psico-oncologista",
-  description: "Atendimento psicológico humanizado, respeitando a singularidade de cada pessoa em sua jornada.",
-  keywords: ["psicóloga", "psico-oncologia", "apoio psicológico", "pacientes com câncer", "terapia", "acompanhamento psicológico", "psicologa hospitalar", "psicóloga câncer"],
+  title: "Psicóloga Talita Faraco Cantelli",
+  description: "Psicóloga Clínica e Hospitalar, especialista em Oncologia. Atendimentos online, palestras e consultoria.",
+  keywords: ["psicóloga", "psicóloga clínica", "psico-oncologia", "apoio psicológico", "pacientes com câncer", "terapia", "acompanhamento psicológico", "psicologa hospitalar", "psicóloga câncer"],
   openGraph: {
-    title: "Psicóloga Talita Faraco Cantelli | Psico-oncologista",
-    description: "Psicóloga clínica, especializada em psico-oncologia, com foco no apoio psicológico a pacientes com câncer.",
+    title: "Psicóloga Talita Faraco Cantelli",
+    description: "Psicóloga Clínica e Hospitalar, especialista em Oncologia. Atendimentos online, palestras e consultoria.",
     images: [
       {
-        url: "/images/logo.png",
+        url: "card.svg",
         width: 1200,
         height: 630,
-        alt: "Imagem ilustrativa de psicóloga psico-oncologista",
+        alt: "Imagem ilustrativa de psicóloga clínica e hospitalar",
       },
     ],
     url: "https://www.psitalitafc.com.br",
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Psicóloga Talita Faraco Cantelli | Psico-oncologista",
-    description: "Apoio psicológico especializado para pacientes com câncer. Agende sua consulta.",
+    title: "Psicóloga Talita Faraco Cantelli",
+    description: "Psicóloga Clínica e Hospitalar, especialista em Oncologia. Atendimentos online, palestras e consultoria.",
   },
 };
 
