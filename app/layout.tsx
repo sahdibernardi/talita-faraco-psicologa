@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "Psicóloga Clínica e Hospitalar, especialista em Oncologia. Atendimentos online, palestras e consultoria.",
     images: [
       {
-        url: "card.svg",
+        url: "/images/card.svg",
         width: 1200,
         height: 630,
         alt: "Imagem ilustrativa de psicóloga clínica e hospitalar",
