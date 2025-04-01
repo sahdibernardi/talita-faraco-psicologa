@@ -2,7 +2,7 @@ export default function About() {
   return(
     <section id="sobre" className="relative bg-[#E9E8E5] text-[#143C6B] py-16 md:py-32">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
-          <h2 className="text-2xl uppercase md:text-5xl mb-12 text-center">Sobre mim</h2>
+          <h2 className="text-4xl uppercase md:text-5xl mb-12 text-center">Sobre mim</h2>
           <div className="text-lg w-full flex flex-col items-center justify-center">
             <div className="w-9/12">
               <p className="mb-2">Olá!</p>

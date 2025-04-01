@@ -51,7 +51,7 @@ const institutions = [
 export default function Timeline() {
   return (
     <div className="w-full flex justify-center mb-20">
-      <div className="w-9/12 flex flex-wrap">
+      <div className="w-9/12 flex flex-wrap gap-2 justify-center items-center md:gap-0">
         {institutions.map((institution) => (
           <div 
             key={institution.name} 
@@ -89,7 +89,7 @@ export default function Timeline() {
                 "
               />
             </div>
-            <div className="text-sm italic capitalize opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
+            <div className="text-sm mb-5 italic capitalize opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
               {institution.position}
             </div>
           </div>

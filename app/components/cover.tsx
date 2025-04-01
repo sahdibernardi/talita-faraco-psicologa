@@ -4,41 +4,41 @@ import ContactButton from "./contactButton";
 export default function Cover() {
   return (
     <section id="cover" className="relative border-none h-full bg-gradient-to-br from-[#292823] to-[#0f100d]">
-    <div className="container mx-auto px-4 pt-[calc(100vw-30%)] md:py-24 md:px-6 lg:px-8">
-      <div className="grid md:grid-cols-2 gap-8 items-center">
-        <div className="order-2 md:order-1">
-          <h1 className="text-4xl uppercase md:text-4xl lg:text-7xl font-light leading-tight mb-6">
-            Expandindo as
-            <br />
-            possibilidades
-            <br />
-            do cuidado
-          </h1>
-          <h4 className="text-3xl">
-            Atendimento psicológico humanizado, respeitando a singularidade de cada pessoa em sua jornada.
-          </h4>
-          <div className="mt-8 flex items-center">
-            <ContactButton backgroundColor="bg-[#E9E8E5]" textColor="text-black" iconColor="regular" />
+      <div className="container mx-auto pt-50 px-6 md:pt-[calc(100vw-25%)] md:py-24 md:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="relative w-full h-full flex flex-col justify-center items-center z-10">
+            <h1 className="text-5xl break-words uppercase md:text-6xl lg:text-7xl font-light leading-tight mb-6 text-center max-w-full">
+              Expandindo as
+              <br />
+              possibilidades
+              <br />
+              do cuidado
+            </h1>
+            <h4 className="text-3xl text-center mb-6">
+              Atendimento psicológico humanizado, respeitando a singularidade de cada pessoa em sua jornada.
+            </h4>
+            <div className="mt-8 flex items-center justify-start">
+              <ContactButton backgroundColor="bg-[#E9E8E5]" textColor="text-black" iconColor="regular" />
+            </div>
+          </div>
+          <div className="relative w-full h-full">
+            <Image
+              src="/images/psicologa-talita-faraco.png"
+              alt="Profissional de saúde"
+              width={2025}
+              height={2531}
+              className="object-cover drop-shadow-[40px_40px_30px_rgba(0,0,0,0.5)]"
+              priority
+            />
           </div>
         </div>
-        <div className="order-1 md:order-2 relative w-full h-full ">
-          <Image
-            src="/images/psicologa-talita-faraco.png"
-            alt="Profissional de saúde"
-            width={2025}
-            height={2531}
-            className="object-fit drop-shadow-[40px_40px_30px_rgba(0,0,0,0.5)]"
-            priority
-          />
-        </div>
       </div>
-    </div>
-    {/* Angled divider at the bottom of hero section */}
-    <div className="absolute bottom-0 left-0 right-0">
-      <svg className="absolute bottom-0 left-0 w-full" viewBox="0 0 100 10" preserveAspectRatio="none">
-        <polygon fill="#E9E8E5" points="0,10 100,0 100,10"/>
-      </svg>
-    </div>
-  </section>
+      {/* Angled divider at the bottom of hero section */}
+      <div className="absolute bottom-0 left-0 right-0">
+        <svg className="absolute bottom-0 left-0 w-full" viewBox="0 0 100 10" preserveAspectRatio="none">
+          <polygon fill="#E9E8E5" points="0,10 100,0 100,10"/>
+        </svg>
+      </div>
+    </section>
   )
 }

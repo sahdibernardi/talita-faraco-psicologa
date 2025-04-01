@@ -27,11 +27,11 @@ export default function Services() {
   return(
     <section id="servicos" className="relative bg-[#E9E8E5] text-[#143C6B] py-16 md:py-24">
     <div className="container mx-auto my-30 px-4 md:px-6 lg:px-8">
-      <h2 className="text-2xl md:text-5xl text-center uppercase my-20">Serviços</h2>
+      <h2 className="text-4xl md:text-5xl text-center uppercase my-20">Serviços</h2>
       <div className="space-y-8 w-full flex flex-col items-center justify-center">
         { allServices.map((service) => 
-          <div key={service.title} className="bg-white rounded-4xl drop-shadow-xl overflow-hidden flex flex-col md:flex-row w-2/3 p-8">
-            <div className="relative w-50 h-50">
+          <div key={service.title} className="bg-white rounded-4xl drop-shadow-xl overflow-hidden flex flex-col md:flex-row w-2/3 p-8 items-center">
+            <div className="relative w-50 h-50 mb-5 md:mb-0">
               <div className="absolute rounded-4xl inset-0 bg-[#143C6B] mix-blend-multiply opacity-70 z-10"></div>
               <Image
                 src={service.imageSrc}
