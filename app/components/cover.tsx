@@ -4,7 +4,7 @@ import ContactButton from "./contactButton";
 export default function Cover() {
   return (
     <section id="cover" className="relative border-none h-full bg-gradient-to-br from-[#292823] to-[#0f100d]">
-      <div className="container mx-auto pt-50 px-6 md:pt-[calc(100vw-25%)] md:py-24 md:px-6 lg:px-8">
+      <div className="container mx-auto pt-50 px-6 md:py-24 md:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="relative w-full h-full flex flex-col justify-center items-center z-10">
             <h1 className="text-5xl break-words uppercase md:text-6xl lg:text-7xl font-light leading-tight mb-6 text-center max-w-full">
