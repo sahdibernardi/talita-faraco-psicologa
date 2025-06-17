@@ -31,7 +31,7 @@ export default function ContactButton({
         height={24}
         className={`mr-2 ${iconColor}`}
       />
-      ENTRAR EM CONTATO
+      QUERO UM ACOMPANHAMENTO PROFISSIONAL
     </button>
   );
 }
