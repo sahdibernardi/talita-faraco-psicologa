@@ -100,7 +100,7 @@ export default function Statements() {
                     
                     {/* Statement */}
                     <blockquote className="text-base md:text-lg italic mb-4 md:mb-6 text-gray-700 leading-relaxed line-clamp-3">
-                      "{testimonial.statement}"
+                        &rdquo;{testimonial.statement}&rdquo;
                     </blockquote>
                     
                     {/* Rating */}
