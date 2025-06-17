@@ -47,7 +47,7 @@ export default function Statements() {
   const slidesToShow = isMobile ? 1 : 3;
   const maxIndex = testimonials.length - slidesToShow;
 
-  const goToSlide = (index : number) => {
+  const goToSlide = (index: number) => {
     setCurrentIndex(Math.min(index, maxIndex));
   };
 
@@ -65,9 +65,9 @@ export default function Statements() {
         <h2 className="text-4xl uppercase md:text-5xl mb-12 text-center">Depoimentos</h2>
 
         <div className="relative max-w-4xl mx-auto">
-            <p className="my-6">
-                Todos os depoimentos são verídicos e recebidos de pacientes e profissionais da saúde reais, com suas expressas autorizações por escrito, conforme Nota técnica 01/2022 do Conselho Federal de Psicologia.
-            </p>
+          <p className="my-6">
+            Todos os depoimentos são verídicos e recebidos de pacientes e profissionais da saúde reais, com suas expressas autorizações por escrito, conforme Nota técnica 01/2022 do Conselho Federal de Psicologia.
+          </p>
         
           {/* Main carousel container */}
           <div className="relative overflow-hidden rounded-2xl">
@@ -75,14 +75,14 @@ export default function Statements() {
               className="flex transition-transform duration-500 ease-in-out"
               style={{ 
                 transform: `translateX(-${currentIndex * (100 / slidesToShow)}%)`,
-                width: `${(testimonials.length / slidesToShow) * 100}%`
               }}
             >
               {testimonials.map((testimonial, index) => (
                 <div
                   key={index}
-                  className="flex-shrink-0 px-2 md:px-4"
-                  style={{ width: `${100 / testimonials.length}%` }}
+                  className={`flex-shrink-0 px-2 md:px-4 ${
+                    isMobile ? 'w-full' : 'w-1/3'
+                  }`}
                 >
                   <div className="bg-white/80 backdrop-blur-sm p-6 md:p-8 rounded-2xl shadow-lg border border-white/20 text-center h-full">
                     {/* Avatar */}
@@ -107,7 +107,7 @@ export default function Statements() {
 
                     {/* Statement */}
                     <blockquote className="text-base md:text-sm italic mb-1 md:mb-1 text-gray-700 leading-relaxed">
-                        &rdquo;{testimonial.statement}&rdquo;
+                      &rdquo;{testimonial.statement}&rdquo;
                     </blockquote>
                     
                     {/* Name */}
