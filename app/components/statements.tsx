@@ -31,7 +31,6 @@ const testimonials = [
 
 export default function Statements() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
 
   // Check if mobile
@@ -50,20 +49,14 @@ export default function Statements() {
 
   const goToSlide = (index : number) => {
     setCurrentIndex(Math.min(index, maxIndex));
-    setIsAutoPlaying(false);
-    setTimeout(() => setIsAutoPlaying(true), 10000);
   };
 
   const goToPrev = () => {
     setCurrentIndex(currentIndex === 0 ? maxIndex : currentIndex - 1);
-    setIsAutoPlaying(false);
-    setTimeout(() => setIsAutoPlaying(true), 10000);
   };
 
   const goToNext = () => {
     setCurrentIndex(currentIndex >= maxIndex ? 0 : currentIndex + 1);
-    setIsAutoPlaying(false);
-    setTimeout(() => setIsAutoPlaying(true), 10000);
   };
 
   return (
