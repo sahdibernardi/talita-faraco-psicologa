@@ -60,9 +60,6 @@ export default function Menu() {
         <Link href="#" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#cover")}>
           Início
         </Link>
-        <Link href="#sobre" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#sobre")}>
-          Sobre
-        </Link>
         <Link href="#experiencia" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#experiencia")}>
           Experiência
         </Link>
@@ -71,6 +68,12 @@ export default function Menu() {
         </Link>
         <Link href="#faq" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#faq")}>
           FAQ
+        </Link>
+        <Link href="#depoimentos" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#depoimentos")}>
+          Depoimentos
+        </Link>
+        <Link href="#sobre" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#sobre")}>
+          Sobre
         </Link>
         <Link href="#contato" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#contato")}>
           Contato
@@ -98,9 +101,6 @@ export default function Menu() {
           <Link href="#" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#cover")}>
             Início
           </Link>
-          <Link href="#sobre" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#sobre")}>
-            Sobre
-          </Link>
           <Link href="#experiencia" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#experiencia")}>
             Experiência
           </Link>
@@ -109,6 +109,12 @@ export default function Menu() {
           </Link>
           <Link href="#faq" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#faq")}>
             FAQ
+          </Link>
+          <Link href="#depoimentos" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#depoimentos")}>
+            Depoimentos
+          </Link>
+          <Link href="#sobre" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#sobre")}>
+            Sobre
           </Link>
           <Link href="#contato" className="hover:text-[#77859B]" onClick={(e) => handleSmoothScroll(e, "#contato")}>
             Contato
