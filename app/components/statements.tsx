@@ -90,7 +90,7 @@ export default function Statements() {
                       <img
                         src={testimonial.image}
                         alt={testimonial.name}
-                        className="w-16 h-16 md:w-20 md:h-20 mx-auto mb-4 md:mb-6 rounded-full object-cover border-4 border-white shadow-md"
+                        className="w-16 h-16 md:w-20 md:h-20 mx-auto mb-2 md:mb-3 rounded-full object-cover border-4 border-white shadow-md"
                       />
                     ) : (
                       <div className="w-16 h-16 md:w-20 md:h-20 mx-auto mb-4 md:mb-6 bg-gradient-to-br from-[#143C6B] to-[#2563eb] rounded-full flex items-center justify-center text-xl md:text-2xl font-bold text-white shadow-lg">
@@ -98,23 +98,20 @@ export default function Statements() {
                       </div>
                     )}
                     
+                    {/* Rating */}
+                    <div className="flex justify-center mb-1 md:mb-2">
+                      {Array.from({ length: testimonial.rating }).map((_, i) => (
+                        <Star key={i} className="w-4 h-4 md:w-4 md:h-4 text-yellow-400 fill-yellow-400 mx-0.5" />
+                      ))}
+                    </div>
+
                     {/* Statement */}
-                    <blockquote className="text-base md:text-lg italic mb-4 md:mb-6 text-gray-700 leading-relaxed line-clamp-3">
+                    <blockquote className="text-base md:text-sm italic mb-1 md:mb-1 text-gray-700 leading-relaxed">
                         &rdquo;{testimonial.statement}&rdquo;
                     </blockquote>
                     
-                    {/* Rating */}
-                    <div className="flex justify-center mb-3 md:mb-4">
-                      {Array.from({ length: testimonial.rating }).map((_, i) => (
-                        <Star key={i} className="w-5 h-5 md:w-6 md:h-6 text-yellow-400 fill-yellow-400 mx-0.5" />
-                      ))}
-                      {Array.from({ length: 5 - testimonial.rating }).map((_, i) => (
-                        <Star key={i} className="w-5 h-5 md:w-6 md:h-6 text-gray-300 mx-0.5" />
-                      ))}
-                    </div>
-                    
                     {/* Name */}
-                    <cite className="text-lg md:text-xl font-semibold text-[#143C6B] not-italic">
+                    <cite className="text-md sm:text-sm font-semibold text-[#143C6B] not-italic">
                       {testimonial.name}
                     </cite>
                   </div>
