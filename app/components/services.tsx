@@ -1,10 +1,40 @@
+import { ChevronDown } from "lucide-react";
 import Image from "next/image";
+
+const PlusButton = () => {
+  const answer = () => <>
+    <p className="mb-1">É importante que você saiba: a psicoterapia online além de garantir o sigilo e a segurança necessários, possui alguns benefícios:</p>
+    <ul className="text-md">
+      <li>- praticidade</li>
+      <li>- acessibilidade</li>
+      <li>- custo-benefício</li>
+      <li>- maior flexibilidade</li>
+      <li>- quebra de barreiras geográficas</li>
+      <li>- conforto e comodidade</li>
+    </ul>
+  </>
+
+  return(
+    <div key={'beneficios-atendimento-online'} className="mt-4 mb-2">
+      <details className="group">
+        <summary className="flex justify-between items-center w-full text-left cursor-pointer">
+          <span className="text-sm">Benefícios do atendimento psicológico <b>online</b></span>
+          <ChevronDown className="h-5 w-5 group-open:rotate-180 transition-transform" />
+        </summary>
+        <div className="mt-2 text-xs">
+          {answer()}
+        </div>
+      </details>
+    </div>
+  )
+}
 
 const allServices = [
   { imageSrc: '/images/services/psico-online.png',
     title: 'Psicoterapia Online',
     description: 'O processo psicoterapêutico se dá no encontro periódico da pessoa com seu psicólogo que através de questionamentos, escuta ativa e acolhedora e um bom vínculo terapêutico contribui para a aproximação do sujeito consigo mesmo, encontrando dentro de si respostas e sentidos para suas questões.',
     details: () => null,
+    button: () => <PlusButton />,
   },
   { imageSrc: '/images/services/palestra.jpg',
     title: 'Aulas e Palestras',
@@ -15,11 +45,13 @@ const allServices = [
               <li>- acolhimento para profissionais da saúde e psicologia hospitalar</li>
               <li>- psico-oncologia e luto.</li>
             </ul>,
+    button: () => null
   },
   { imageSrc: '/images/services/consultoria.png',
     title: 'Consultoria para profissionais da saúde',
     description: 'Você que é profissional da saúde e cuida de pacientes acometidos por adoecimentos dos mais diversos tipos e possui dúvidas, inseguranças ou dificuldades para manejar e cuidar, conte comigo para trocas e orientações sobre os cuidados psicossociais necessários para uma melhor condução do seu trabalho.',
     details: () => null,
+    button: () => null
   },
 ]
 
@@ -46,6 +78,7 @@ export default function Services() {
                 {service.description}
               </p>
               {service.details()}
+              {service.button()}
             </div>
           </div>
         )}

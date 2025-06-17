@@ -1,6 +1,6 @@
 export default function About() {
   return(
-    <section id="sobre" className="relative -mt-1 bg-[#E9E8E5] text-[#143C6B] py-16 md:py-32">
+    <section id="sobre" className="relative -mt-1 bg-[#3d5a80] text-[#E9E8E5] py-16 md:py-32">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <h2 className="text-4xl uppercase md:text-5xl mb-12 text-center">Sobre mim</h2>
           <div className="text-lg w-full flex flex-col items-center justify-center">
@@ -31,8 +31,12 @@ export default function About() {
             </div>
           </div>
         </div>
-        {/* Smooth gradient transition to next section */}
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-[#E9E8E5] to-[#3d5a80]"></div>
+        {/* Diagonal transition to next section */}
+        <div className="absolute bottom-0 left-0 right-0 z-0">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" className="w-full h-auto">
+            <path fill="#f5f5f5" fillOpacity="1" d="M0,32L1440,96L1440,120L0,120Z"></path>
+          </svg>
+        </div>
       </section>
   )
 }

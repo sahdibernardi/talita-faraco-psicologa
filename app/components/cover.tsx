@@ -17,6 +17,7 @@ export default function Cover() {
             <h4 className="text-3xl text-center mb-6">
               Atendimento psicológico humanizado, respeitando a singularidade de cada pessoa em sua jornada.
             </h4>
+            <span>Talita Faraco Cantelli - CRP 06/176527</span>
             <div className="mt-8 flex items-center justify-start">
               <ContactButton backgroundColor="bg-[#E9E8E5]" textColor="text-black" iconColor="regular" />
             </div>

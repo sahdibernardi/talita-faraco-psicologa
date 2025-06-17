@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="container -mt-1 w-full flex justify-center items-start mx-auto px-8 md:px-6 lg:px-8">
         <div className="relative grid md:grid-cols-2 items-center w-full max-w-5xl">
           <div className="order-2 mb-20 md:order-1 z-10">
-            <h2 className="text-[#143C6B] text-2xl md:text-5xl uppercase md:-mt-20 md:mb-5">Fale Comigo</h2>
+            <h2 className="text-[#143C6B] text-2xl md:text-5xl uppercase md:-mt-5 md:mb-5">Fale Comigo</h2>
             <p className="text-lg mb-8">
               Entre em contato ou clique no botão abaixo para agendar uma consulta ou para mais informações.
             </p>
@@ -24,6 +24,9 @@ export default function Contact() {
               <Phone className="h-5 w-5 mr-3" />
               <span>+55 (11) 91220-2166</span>
             </div>
+            <p className="text-xs mb-3">
+              Atenção: Este site não oferece atendimento imediato a pessoas em situação de emergência. Nesse caso, ligue para o número 188 (Centro de Valorização da Vida – CVV) ou entre em contato com o Serviço de Atendimento Móvel de Urgência no número 192. (SAMU).
+            </p>
             <ContactButton backgroundColor="bg-[#143C6B]"/>
           </div>
           <div className="order-1 md:order-2 flex items-center -mt-30 mb-20 justify-center md:justify-end z-10">
